@@ -1,0 +1,40 @@
+.footer > .columns-wrapper {
+    font-family: "Roboto",sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1f1f25;
+    height: 75px;
+    width: 900;
+    border: 5px solid #636363; 
+    padding: 0px;
+    margin: 0px;
+    font-weight: bolder;
+}
+
+.footer > .column-1{
+    border: 3px solid #636363;
+    padding: 25px 125px;
+}
+
+.footer > .column-2{
+    border: 3px solid #636363;
+    padding: 25px 125px;
+}
+
+.footer > .column-3{
+    border: 3px solid #636363;
+    padding: 25px 125px;
+}
+.footer > .column-4{
+    border: 3px solid #636363;
+    padding: 25px 125px;
+}
+
+.footer::after {
+    content: "";
+    display: block;
+    background-color: black;
+    height: 200px;
+}

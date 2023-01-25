@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+.main-header {
+    font: "Ubuntu Condensed", sans-serif;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+}
+
+.main-header > .codepen-logo  img {
+    display: flex;
+    justify-content: left;
+    height: 35px;
+    padding: 40px 40px 0px 40px;
+    margin-bottom: 30px;
+}
+
+.main-header > .navigation-header > .explore {
+    color: yellow;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 13px;
+}
+
+.main-header > .navigation-header > .links-wrapper a {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    height: 20px;
+    font-size: 1em;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.links-wrapper > .links {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.spark {
+    display: inline-table;
+    color: grey;
+}
+
+.main-header > .right-column-header button {
+    background-color: rgb(28, 30, 30);
+    color: white;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,58 @@
+.main-content {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    background-color: #1f1f25;
+}
+
+.main-content> .column-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    font-family: "Roboto thin", sans-serif;
+    color: white;
+    font-size: 3em;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    color: white;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.button-1 {
+    background-color: rgb(18, 239, 126);
+    color: black;
+    font-size: large;
+    font-weight: 400;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+}
+
+.button-2 {
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-weight: 400;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+}
+
+.main-content > .codepen-image p{
+    margin-top: 30px;
+    font: "Ubuntu Condensed" sans-serif;
+    font-size: larger;
+    color: rgb(20, 163, 211);
+}
+
+.main-content > .codepen-image img{
+    height: 800px;
+    width: 900px;
+    box-shadow: -8px -10px 23px 12px black;
+    opacity: 0.75;
+}
